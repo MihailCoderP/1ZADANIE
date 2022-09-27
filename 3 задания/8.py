@@ -1,0 +1,10 @@
+def eightEx():
+    a = int(input("Введите первое число:"))
+    b = int(input("Введите второе число:"))
+    c = int(input("Введите третье число:"))
+    if(a==b and b==c): print(3)
+    elif(a==b and b!=c):print(2)
+    elif(a==c and c!=b):print(2)
+    elif(b==c and c!=a):print(2)
+    else:print(0)
+eightEx()
